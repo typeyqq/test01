@@ -1,2 +1,2 @@
-# test01
-一个上传项目的测试
+# Image Enhancement Network
+This network integrates an iterative learning mechanism with Retinex theory to enhance low-light images. It continuously learns local and global features of low-light images across different dimensions and receptive fields to achieve clear and stable illumination estimation. Additionally, it performs denoising on the reflectance component obtained from Retinex decomposition to enhance the richness of color features. Finally, the enhanced image is obtained by connecting features along the channel dimension. Experiments were conducted on six commonly used datasets and real-world environments.
